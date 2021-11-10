@@ -5,7 +5,7 @@ import lombok.Value;
 @Value
 public class PaymentMethodCreatedEvent {
     private String id;
-    private Integer patientId;
+    private String patientId;
     private String cardType;
     private Integer cardNumber;
     private Integer expirationDateMonth;

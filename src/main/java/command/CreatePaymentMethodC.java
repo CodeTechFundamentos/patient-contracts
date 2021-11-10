@@ -7,7 +7,7 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 public class CreatePaymentMethodC {
     @TargetAggregateIdentifier
     private String id;
-    private Integer patientId;
+    private String patientId;
     private String cardType;
     private Integer cardNumber;
     private Integer expirationDateMonth;

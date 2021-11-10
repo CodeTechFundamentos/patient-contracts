@@ -9,7 +9,7 @@ import java.util.Date;
 public class CreateBillC {
     @TargetAggregateIdentifier
     private String id;
-    private Integer patientId;
+    private String patientId;
     private Date billDate;
     private Double amount;
     private String ruc;

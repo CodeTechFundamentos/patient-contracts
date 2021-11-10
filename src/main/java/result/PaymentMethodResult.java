@@ -5,7 +5,7 @@ import lombok.Getter;
 @Getter
 public class PaymentMethodResult {
     private String id;
-    private Integer patientId;
+    private String patientId;
     private String cardType;
     private Integer cardNumber;
     private Integer expirationDateMonth;
@@ -20,7 +20,7 @@ public class PaymentMethodResult {
     private String country;
     private Integer phoneNumber;
 
-    public PaymentMethodResult(String id, Integer patientId, String cardType, Integer cardNumber, Integer expirationDateMonth, Integer expirationDateYear,
+    public PaymentMethodResult(String id, String patientId, String cardType, Integer cardNumber, Integer expirationDateMonth, Integer expirationDateYear,
                                Integer securityCode, String ownerFirstname, String ownerLastname, String city, String billingAddress, String billingAddressLine2,
                                String postalCode, String country, Integer phoneNumber) {
         this.id = id;
